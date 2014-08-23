@@ -1,9 +1,9 @@
-Smartphone-Sensor-Analysis
-==========================
 Analysis of Human Activity Recognition Using Smartphones Dataset Version 1.0
 
 Data provided by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+
 www.smartlab.ws
+
 Data available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 Analysis by John Jaquette for Coursera class Getting and Cleaning Data
@@ -14,7 +14,7 @@ Columns 1 to 86 are for mean sensor measurements, or features, as calculated in 
 
 The following description of features is excerpted from the original dataset's features_info.txt:
 
-===
+---
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -56,7 +56,7 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-===
+---
 
 Raw accelerometer measurements were taken in standard gravity units 'g', and raw gyroscopic measurements were taken in radians per second. Features examined in this analysis were normalized and bounded within [-1,1].
 
