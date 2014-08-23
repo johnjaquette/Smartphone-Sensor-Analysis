@@ -69,6 +69,10 @@ for (i in 1:86){
   names(tidy)[i]=paste("mean",names(tframe)[i])
 }
 
+## Apply "Subject" and "Activity" labels to columns 87:88
+
+names(tidy)[87:88]=c("Subject","Activity")
+
 ## Add 5 more rows to this data frame for subject 1, activities 2:6
 
 for (i in 2:6){
