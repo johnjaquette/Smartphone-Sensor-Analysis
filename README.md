@@ -26,36 +26,59 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
+
 std(): Standard deviation
+
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
 angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean
 
 ~
@@ -65,12 +88,19 @@ Raw accelerometer measurements were taken in standard gravity units 'g', and raw
 The first step in the analysis was to read the data in using read.table. The following files were read in and assigned to individual R objects: 
 
 activity_labels.txt
+
 features.txt
+
 subject_test.txt
+
 subject_train.txt
+
 X_test.txt
+
 X_train.txt
+
 y_test.txt
+
 y_train.txt
 
 Next, test and training data were combined using rbind(). Feature columns were labeled using the features object. Subject and activity columns were labeled with "Subject" and "Activity".
