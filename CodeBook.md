@@ -1,3 +1,5 @@
+~
+
 Analysis of Human Activity Recognition Using Smartphones Dataset Version 1.0
 
 Data provided by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
